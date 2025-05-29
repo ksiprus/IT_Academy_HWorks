@@ -11,4 +11,4 @@ target/
 !**/src/test/**/target/
 
 ### Mac OS ###
-.DS_Store
+.DS_Storemvn
