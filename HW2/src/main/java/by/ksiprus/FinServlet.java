@@ -78,7 +78,7 @@ public class FinServlet extends HttpServlet {
         writer.write("<table border='1' bordercolor='green' width='400px' style='margin: 20px auto;'>");
         writer.write("<tr><td style='padding-left: 7px;'>Средняя цена покупки:</td><td align='right' style='padding-right: 7px;'>" + df.format(averagePrice) + "</td></tr>");
         writer.write("<tr><td style='padding-left: 7px;'>Общая сумма покупки:</td><td align='right' style='padding-right: 7px;'>" + totalPurchasePrice + "</td></tr>");
-        writer.write("<tr><td style='padding-left: 7px;'>Общее количество:</td><td align='right' style='padding-right: 7mvn px;'>" + totalQuantity + "</td></tr>");
+        writer.write("<tr><td style='padding-left: 7px;'>Общее количество:</td><td align='right' style='padding-right: 7 px;'>" + totalQuantity + "</td></tr>");
         writer.write("</table>");
     }
 }
